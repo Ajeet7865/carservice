@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: roboto;
+}
+.top-bar{
+	background: #009999;
+	color: #fff;
+	padding: 5px;
+	padding-right: 41px;
+}
+.mymenu li a{
+	text-transform: uppercase;
+	border: 1px solid #009999;
+	margin: 5px;
+}
+.mymenu li .home {
+	background: #009999 !important;
+	color: #fff;
+}
+.mymenu li a:hover{
+	background: #009999;
+	color: #fff;
+}
+.card:hover{
+	box-shadow: -1px 2px 18px #888888;
+}
+.service {
+	padding: 5px;
+	border: 0.3px solid #009999;
+}
+.service > h1{
+	font-size: 25px;
+	background-color: #009999;
+	color: #fff;
+}
+.service:hover{
+	box-shadow: -1px 2px 18px #888888;
+}
+.button{
+	background-color: #009999;
+	color: #fff;	
+}
+
+@media (max-width: 700px) {
+	.card,.service{
+		margin-bottom: 20px;
+	}
+	.top-bar > h6{
+		text-align: center;
+	}
+	#gallery .row {
+		margin-right: 40px;
+	}
+}
